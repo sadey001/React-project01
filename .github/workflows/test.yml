@@ -29,7 +29,5 @@ jobs:
       - name: build the app
         run: npm run build
       - name: Loggin Deploy
-        run: echo "Deploying..."
-      - name: Starting preview
-        run: npm run preview      
+        run: echo "Deploying..."    
       
